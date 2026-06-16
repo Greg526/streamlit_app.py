@@ -10,7 +10,7 @@ stripe_key = st.secrets["STRIPE_API_KEY"]
 
 # Replace this with your actual Stripe Payment Link URL from your dashboard
 #STRIPE_PAYMENT_LINK = "https://buy.stripe.com/your_actual_link_here"
-STRIPE_PAYMENT_LINK = "https://buy.stripe.com/test_dRm3cx4YKcNs6yG2tP7Zu0"
+STRIPE_PAYMENT_LINK = "https://buy.stripe.com/test_dRm3cx4YKcNs6yG2tP7Zu00"
 # 3. Router logic: Check the URL parameters for access validation
 if st.query_params.get("payment") == "success":
     
